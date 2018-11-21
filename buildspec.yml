@@ -5,4 +5,4 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo "Hello World"
+      - foodcritic ./site-cookbooks/
