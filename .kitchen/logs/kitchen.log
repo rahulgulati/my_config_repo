@@ -1,0 +1,29 @@
+I, [2018-11-20T15:12:28.452636 #85596]  INFO -- Kitchen: -----> Starting Kitchen (v1.19.2)
+E, [2018-11-20T15:12:28.454253 #85596] ERROR -- Kitchen: ------Exception-------
+E, [2018-11-20T15:12:28.454324 #85596] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2018-11-20T15:12:28.454372 #85596] ERROR -- Kitchen: Message: Kitchen YAML file /Users/ragulati/ragulati-demo/mychefautomateserver-t8hkmqkvii1px8tb/.kitchen.yml does not exist.
+E, [2018-11-20T15:12:28.454415 #85596] ERROR -- Kitchen: ----------------------
+E, [2018-11-20T15:12:28.454452 #85596] ERROR -- Kitchen: ------Backtrace-------
+E, [2018-11-20T15:12:28.454503 #85596] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/loader/yaml.rb:65:in `read'
+E, [2018-11-20T15:12:28.454551 #85596] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/config.rb:152:in `data'
+E, [2018-11-20T15:12:28.454574 #85596] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/config.rb:131:in `suites'
+E, [2018-11-20T15:12:28.454593 #85596] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/config.rb:182:in `filter_instances'
+E, [2018-11-20T15:12:28.454607 #85596] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/config.rb:141:in `build_instances'
+E, [2018-11-20T15:12:28.454620 #85596] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/config.rb:117:in `instances'
+E, [2018-11-20T15:12:28.454633 #85596] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:112:in `filtered_instances'
+E, [2018-11-20T15:12:28.454647 #85596] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:142:in `parse_subcommand'
+E, [2018-11-20T15:12:28.454659 #85596] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command/test.rb:40:in `block in call'
+E, [2018-11-20T15:12:28.454672 #85596] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.4.0/benchmark.rb:293:in `measure'
+E, [2018-11-20T15:12:28.454685 #85596] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command/test.rb:38:in `call'
+E, [2018-11-20T15:12:28.454698 #85596] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/cli.rb:52:in `perform'
+E, [2018-11-20T15:12:28.454710 #85596] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/cli.rb:245:in `test'
+E, [2018-11-20T15:12:28.454723 #85596] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2018-11-20T15:12:28.454736 #85596] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2018-11-20T15:12:28.454749 #85596] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2018-11-20T15:12:28.454761 #85596] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2018-11-20T15:12:28.454774 #85596] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/bin/kitchen:13:in `block in <top (required)>'
+E, [2018-11-20T15:12:28.454786 #85596] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/errors.rb:171:in `with_friendly_errors'
+E, [2018-11-20T15:12:28.454799 #85596] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/bin/kitchen:13:in `<top (required)>'
+E, [2018-11-20T15:12:28.454811 #85596] ERROR -- Kitchen: /usr/local/bin/kitchen:255:in `load'
+E, [2018-11-20T15:12:28.454823 #85596] ERROR -- Kitchen: /usr/local/bin/kitchen:255:in `<main>'
+E, [2018-11-20T15:12:28.454835 #85596] ERROR -- Kitchen: ----End Backtrace-----
