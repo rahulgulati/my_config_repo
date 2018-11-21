@@ -1,5 +1,5 @@
 # Overview
-# Tweet to us @AWSOpsWorks
+### Tweet to us @AWSOpsWorks
 This zip file starts you out with a simple example of a Chef repository that is preconfigured to work with an AWS OpsWorks Chef Automate server.
 In this repository, you store cookbooks, roles, configuration files, and other artifacts for managing systems with Chef.
 It is recommended that you store this repository in a version control system such as Git, and treat it like source code.
