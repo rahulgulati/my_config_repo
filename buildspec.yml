@@ -5,4 +5,4 @@ version: 0.2
 phases:
   build:
     commands:
-      - foodcritic ./site-cookbooks/
+      - foodcritic ./site-cookbooks/ -t ~FC064 -t ~FC065 -t ~FC067 -t ~FC068 -t ~FC071 -t ~FC069 -t ~FC078
